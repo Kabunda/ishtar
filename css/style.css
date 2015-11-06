@@ -1,20 +1,26 @@
 
 body {
-    background-color: rgb(20, 255, 219)
+    background-color: rgb(36, 211, 21);
+    margin: 0px;
 }
 
-.container {
-    background-color: #009dff
-}
-
-header {
+.top {
     display:block;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
     text-align: center;
+    background-color: #ea8d12
 }
 
 .main {
+    background-color: #009dff;
     display:block;
-    position: relative;
+    width: 100%;
+    position: absolute;
+    top: 80px;
 }
 
 .left {
@@ -31,7 +37,7 @@ header {
     width: 100px;
 }
 
-footer {
+.bot {
     display:block;
     width: 100%;
     padding: 0;
@@ -39,4 +45,5 @@ footer {
     bottom: 0;
     left: 0;
     text-align: center;
+    background-color: #ea8d12;
 }
