@@ -1,26 +1,32 @@
 
 body {
+    padding: 0;
+    margin: 0;
     background-color: #f5b6f3;
-    background-image: url(../images/sky2.jpeg);
+  background-image: url(../images/sky2.jpeg);
 }
 
-.top {
+header {
     display:block;
-    width: 100%;
-    padding: 0;
-    position: absolute;
-    top: 0;
+    width: calc(100%-100px);
+    height: 100%;
+    padding: 50px;
+    margin: 0px;
+    position: relative;
+    top: 0px;
     left: 0;
     text-align: center;
     background-color:aqua;
 }
 
 .main {
-    background-color: green;
+    text-align: center;
+    background-color: grey;
     display:block;
     width: 80%;
-    position: absolute;
-    top: 80px;
+    min-height: 610px;
+    position: relative;
+    top: 0px;
     left: 10%;
 }
 .column {
@@ -45,13 +51,15 @@ body {
     right: 0px;
 }
 
-.bot {
+footer {
     display:block;
-    width: 100%;
-    padding: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    width: calc(100%-100px);
+    padding: 50px;
+    position: relative;
+    /*top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;*/
     text-align: center;
     background-color:aqua;
 }
