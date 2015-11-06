@@ -1,0 +1,42 @@
+
+body {
+    background-color: rgb(20, 255, 219)
+}
+
+.container {
+    background-color: #009dff
+}
+
+header {
+    display:block;
+    text-align: center;
+}
+
+.main {
+    display:block;
+    position: relative;
+}
+
+.left {
+    position: absolute;
+    display:block;
+    left: 10px;
+    width: 100px;
+}
+
+.right {
+    position: absolute;
+    display:block;
+    right: 10px;
+    width: 100px;
+}
+
+footer {
+    display:block;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
