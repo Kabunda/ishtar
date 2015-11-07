@@ -1,8 +1,6 @@
 body {
-    padding: 0;
-    margin: 0;
-    background-color: #f5b6f3;
-    background-image: url(../images/sky2.jpeg);
+    background-color: #77a877;
+    /*background-image: url(../images/sky2.jpeg);*/
 }
 
 header {
@@ -10,10 +8,10 @@ header {
     width: calc(100%-100px);
     height: 100%;
     padding: 50px;
-    margin: 0px;
+   /* margin: 0px;*/
     position: relative;
-    top: 0px;
-    left: 0;
+    /*top: 0px;
+    left: 0;*/
     text-align: center;
     background-color:aqua;
 }
@@ -25,7 +23,7 @@ header {
     width: 80%;
     min-height: 610px;
     position: relative;
-    top: 0px;
+    /*top: 0px;*/
     left: 10%;
 }
 .column {
