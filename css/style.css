@@ -1,42 +1,46 @@
+
 body {
+    padding: 0;
+    margin: 0;
     background-color: #f5b6f3;
-    background-image: url(../images/sky2.jpeg);
-    padding: 0px;
-    margin: 0px;
+  background-image: url(../images/sky2.jpeg);
 }
 
-.top {
-    display: block;
-    width: 100%;
-    padding: 0px;
+header {
+    display:block;
+    width: calc(100%-100px);
+    height: 100%;
+    padding: 50px;
     margin: 0px;
     position: relative;
-    top: 0;
+    top: 0px;
     left: 0;
     text-align: center;
     background-color:aqua;
 }
 
 .main {
-    background-color: green;
+    text-align: center;
+    background-color: grey;
     display:block;
     width: 80%;
-    height: 600px;
+    min-height: 610px;
     position: relative;
-    top: 80px;
+    top: 0px;
     left: 10%;
 }
 .column {
     background-image: url(../images/br_b.jpg);    
     position: absolute;
     display:block;
-    width: 150px;
-    height: 400px;
+    width: 200px;
+    height: 600px;
     border: 5px dotted yellow;
 }
 .column ul {
     list-style-type: none;
     color: yellow;
+/*  text-transform: uppercase;*/
     line-height: 50px;
 }
 #left {
@@ -47,13 +51,15 @@ body {
     right: 0px;
 }
 
-.bot {
+footer {
     display:block;
-    width: 100%;
-    padding: 0;
+    width: calc(100%-100px);
+    padding: 50px;
     position: relative;
-    bottom: 0;
-    left: 0;
+    /*top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;*/
     text-align: center;
     background-color:aqua;
 }
