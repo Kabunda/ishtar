@@ -1,43 +1,46 @@
 body {
-    background-color: #77a877;
-    /*background-image: url(../images/sky2.jpeg);*/
+    position: relative;
+    
+    min-height: 100%;
+    width: 950px;
+    margin: 0 auto;
+    text-align: center;
+    font: 12px 'Georgia', 'Times', serif;
+    background: cornsilk;
+    color: #373737;
+    
 }
 
 header {
-    display:block;
-    width: calc(100%-100px);
-    height: 100%;
-    padding: 50px;
-   /* margin: 0px;*/
     position: relative;
-    /*top: 0px;
-    left: 0;*/
-    text-align: center;
-    background-color:aqua;
+    
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+
+    background-color:aquamarine;
 }
 
 .main {
-    text-align: center;
-    background-color: grey;
-    display:block;
-    width: 80%;
-    min-height: 610px;
     position: relative;
-    /*top: 0px;*/
-    left: 10%;
+    
+    width: 100%;
+    min-height: 610px;
+    
+    background-color: grey;
 }
 .column {
-    background-image: url(../images/br_b.jpg);    
     position: absolute;
-    display:block;
+    
     width: 200px;
     height: 600px;
+    
     border: 5px dotted yellow;
+    background-image: url(../images/br_b.jpg);
 }
 .column ul {
     list-style-type: none;
     color: yellow;
-/*  text-transform: uppercase;*/
     line-height: 50px;
 }
 #left {
@@ -49,14 +52,9 @@ header {
 }
 
 footer {
-    display:block;
-    width: calc(100%-100px);
-    padding: 50px;
     position: relative;
-    /*top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;*/
-    text-align: center;
-    background-color:aqua;
+    width: calc(100%-100px);
+    padding: 50px 0;
+
+    background-color:darkturquoise;
 }
