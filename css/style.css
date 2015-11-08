@@ -1,6 +1,4 @@
 body {
-    position: relative;
-    
     min-height: 100%;
     width: 950px;
     margin: 0 auto;
@@ -8,33 +6,27 @@ body {
     font: 12px 'Georgia', 'Times', serif;
     background: cornsilk;
     color: #373737;
-    
 }
 
 header {
-    position: relative;
-    
     width: 100%;
     height: 100%;
-    padding: 50px 0;
-
+    padding: 10px 0;
     background-color:aquamarine;
 }
 
 .main {
-    position: relative;
-    
     width: 100%;
-    min-height: 610px;
-    
     background-color: grey;
 }
+.main:after{
+    content: "";
+    display: table;
+    clear: both;   
+}
 .column {
-    position: absolute;
-    
     width: 200px;
-    height: 600px;
-    
+    /*height: 300px;*/    
     border: 5px dotted yellow;
     background-image: url(../images/br_b.jpg);
 }
@@ -44,17 +36,25 @@ header {
     line-height: 50px;
 }
 #left {
-    left: 0px;
+    float:left;
 }
 
 #right {
-    right: 0px;
+    float:right;
 }
 
 footer {
-    position: relative;
-    width: calc(100%-100px);
-    padding: 50px 0;
-
+    width: 100%;
+    padding: 10px 0;
     background-color:darkturquoise;
+}
+
+#centr {
+    background-color: bisque;
+    width: 400px;
+    margin: 0px auto;
+}
+
+#centr p{
+    font-size: 3em;
 }
