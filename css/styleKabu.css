@@ -32,16 +32,27 @@ header p{
     background-color: rgba(244, 237, 65, 0.46);
     font-size: 1.2em;
 }
+@keyframes lion_alive{
+    from {background-position:    0px 0;}
+    to {background-position:    calc(-7*71px) 0;}
+}
 .down ul li:first-child{
     float: left;
-    background-image: url(../images/RLion.jpg);
+    background-image: url(../images/sprt.png);
     display: block;
-    width: 365px;
-    height: 247px;
+    width: 71px;
+    height: 50px;
+    animation: lion_alive 1.5s steps(7) infinite alternate-reverse;
+}
+
+@keyframes lion_roaring{
+    from {background-position:    0px -165px;}
+    to {background-position:    calc(-6*68px) -165px;}
 }
 
 .down ul li:first-child:hover{
-    font-size: 2em;
+    width: 68px;
+    animation: lion_roaring 1.5s steps(6) infinite alternate-reverse;
 }
 
 .down ul li:last-child{
